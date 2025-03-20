@@ -1,0 +1,1290 @@
+{
+    "header": {
+        "reference_number": "000000",
+        "product_name": "PAW PATROL",
+        "chapter_number": "01",
+        "type": "Animacion"
+    },
+    "data": [
+        {
+            "ID": 0,
+            "IN": "00:00:44:00",
+            "OUT": "00:00:49:00",
+            "PERSONAJE": "T.V. ANNOUNCER (V.O.)",
+            "DIÁLOGO": "Time for another exciting adventure of Apollo the Super Pup!",
+            "SCENE": 1
+        },
+        {
+            "ID": 1,
+            "IN": "00:03:26:00",
+            "OUT": "00:03:28:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "I love Apollo.",
+            "SCENE": 1
+        },
+        {
+            "ID": 2,
+            "IN": "00:00:49:00",
+            "OUT": "00:00:53:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "He's the super-est pup ever!",
+            "SCENE": 1
+        },
+        {
+            "ID": 3,
+            "IN": "00:01:02:00",
+            "OUT": "00:01:05:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Awesome! Chase, let's see what it looks like down here.",
+            "SCENE": 1
+        },
+        {
+            "ID": 4,
+            "IN": "00:01:05:00",
+            "OUT": "00:01:07:00",
+            "PERSONAJE": "CHASE (O.S.)",
+            "DIÁLOGO": "<BARK BARK>  Light!",
+            "SCENE": 1
+        },
+        {
+            "ID": 5,
+            "IN": "00:01:09:00",
+            "OUT": "00:01:13:00",
+            "PERSONAJE": "CHASE (CONT'D)",
+            "DIÁLOGO": "Wow.  You're right Jake. This cave is cool - and huge!",
+            "SCENE": 1
+        },
+        {
+            "ID": 6,
+            "IN": "00:01:13:00",
+            "OUT": "00:01:15:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Let's take the right fork.",
+            "SCENE": 1
+        },
+        {
+            "ID": 7,
+            "IN": "00:01:21:00",
+            "OUT": "00:01:24:00",
+            "PERSONAJE": "JAKE (CONT'D)",
+            "DIÁLOGO": "Awesome, right?!  Let's see how far down we can go.",
+            "SCENE": 1
+        },
+        {
+            "ID": 8,
+            "IN": "00:01:24:00",
+            "OUT": "00:01:27:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Careful, Jake, that's pretty steep.",
+            "SCENE": 1
+        },
+        {
+            "ID": 9,
+            "IN": "00:01:27:00",
+            "OUT": "00:01:30:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Hey, don't worry. I'll take it slow.",
+            "SCENE": 1
+        },
+        {
+            "ID": 10,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "JAKE (CONT'D)",
+            "DIÁLOGO": "Whoops - whoaaa! <IMPACT>",
+            "SCENE": 1
+        },
+        {
+            "ID": 11,
+            "IN": "00:01:33:00",
+            "OUT": "00:01:40:00",
+            "PERSONAJE": "JAKE (CONT'D)",
+            "DIÁLOGO": "Uh-oh.  My foot's really stuck.",
+            "SCENE": 1
+        },
+        {
+            "ID": 12,
+            "IN": "00:01:40:00",
+            "OUT": "00:01:42:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Chase is on the case!",
+            "SCENE": 1
+        },
+        {
+            "ID": 13,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE (CONT'D)",
+            "DIÁLOGO": "<EFFORT GROANS AND GRRS>",
+            "SCENE": 1
+        },
+        {
+            "ID": 14,
+            "IN": "00:01:45:00",
+            "OUT": "00:01:47:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Ouch!",
+            "SCENE": 1
+        },
+        {
+            "ID": 15,
+            "IN": "00:01:47:00",
+            "OUT": "00:01:49:00",
+            "PERSONAJE": "CHASE OS",
+            "DIÁLOGO": "Omp! (THEN)  Sorry, Jake.  You ok?",
+            "SCENE": 1
+        },
+        {
+            "ID": 16,
+            "IN": "00:01:51:00",
+            "OUT": "00:01:53:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Yeah, I'm alright - But this foot ain't goin' nowhere.",
+            "SCENE": 1
+        },
+        {
+            "ID": 17,
+            "IN": "00:00:16:00",
+            "OUT": "00:00:21:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "We need the Paw Patrol! <BARK BARK> Ryder, you there?",
+            "SCENE": 1
+        },
+        {
+            "ID": 18,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE (CONT'D)",
+            "DIÁLOGO": "Hello? Ryder? (echoes)",
+            "SCENE": 1
+        },
+        {
+            "ID": 19,
+            "IN": "00:02:09:00",
+            "OUT": "00:02:10:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Chase?",
+            "SCENE": 1
+        },
+        {
+            "ID": 20,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE (O.S.)",
+            "DIÁLOGO": "<garbled unintelligible hello>",
+            "SCENE": 1
+        },
+        {
+            "ID": 21,
+            "IN": "00:02:07:00",
+            "OUT": "00:02:09:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Chase come in! Chase?",
+            "SCENE": 1
+        },
+        {
+            "ID": 22,
+            "IN": "00:02:10:00",
+            "OUT": "00:02:14:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "We must be too deep in the cave for your pup tag to work.",
+            "SCENE": 1
+        },
+        {
+            "ID": 23,
+            "IN": "00:02:14:00",
+            "OUT": "00:02:18:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Don't worry. I'll run up to the mouth of the cave and call Ryder!  Don't move!",
+            "SCENE": 1
+        },
+        {
+            "ID": 24,
+            "IN": "00:02:20:00",
+            "OUT": "00:02:22:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Dude, I wish I could move.",
+            "SCENE": 1
+        },
+        {
+            "ID": 25,
+            "IN": "00:02:22:00",
+            "OUT": "00:02:24:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Oh - right. I'll be right back! <BARKING>",
+            "SCENE": 1
+        },
+        {
+            "ID": 26,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "<BARKING and HOWLING>",
+            "SCENE": 1
+        },
+        {
+            "ID": 27,
+            "IN": "00:02:33:00",
+            "OUT": "00:02:35:00",
+            "PERSONAJE": "ROCKY",
+            "DIÁLOGO": "Here I come!  Here I come!!",
+            "SCENE": 1
+        },
+        {
+            "ID": 28,
+            "IN": "00:02:35:00",
+            "OUT": "00:02:37:00",
+            "PERSONAJE": "SKYE",
+            "DIÁLOGO": "Got to catch me first. <LEAP EFFORT>",
+            "SCENE": 1
+        },
+        {
+            "ID": 29,
+            "IN": "00:02:39:00",
+            "OUT": "00:02:42:00",
+            "PERSONAJE": "ROCKY",
+            "DIÁLOGO": "Look out!",
+            "SCENE": 1
+        },
+        {
+            "ID": 30,
+            "IN": "00:05:27:00",
+            "OUT": "00:05:30:00",
+            "PERSONAJE": "RYDER/ROCKY (PART OS)",
+            "DIÁLOGO": "Ooh!/Oof",
+            "SCENE": 1
+        },
+        {
+            "ID": 31,
+            "IN": "00:02:47:00",
+            "OUT": "00:02:50:00",
+            "PERSONAJE": "ROCKY",
+            "DIÁLOGO": "<SLURPT> Sorry Ryder - I tagged you a little too hard...",
+            "SCENE": 1
+        },
+        {
+            "ID": 32,
+            "IN": "00:02:50:00",
+            "OUT": "00:02:52:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "<GIGGLE> Guess I'm it.",
+            "SCENE": 1
+        },
+        {
+            "ID": 33,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE (O.S.)",
+            "DIÁLOGO": "<BARK, BARK!>  Ryder come in!",
+            "SCENE": 1
+        },
+        {
+            "ID": 34,
+            "IN": "00:02:56:00",
+            "OUT": "00:02:58:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Ok. I can hear you now, Chase.  How's the cave exploring going?",
+            "SCENE": 1
+        },
+        {
+            "ID": 35,
+            "IN": "00:01:53:00",
+            "OUT": "00:01:55:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Not good. We need the PAW Patrol!",
+            "SCENE": 1
+        },
+        {
+            "ID": 36,
+            "IN": "00:03:03:00",
+            "OUT": "00:03:04:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "What's wrong?",
+            "SCENE": 1
+        },
+        {
+            "ID": 37,
+            "IN": "00:03:04:00",
+            "OUT": "00:03:07:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "We were pretty deep in the cave and Jake got his foot stuck. He says it hurts and I can't get him out.",
+            "SCENE": 1
+        },
+        {
+            "ID": 38,
+            "IN": "00:00:25:00",
+            "OUT": "00:00:28:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Don't worry, Chase. No job is too big, no pup is too small!  We'll be right there!",
+            "SCENE": 1
+        },
+        {
+            "ID": 39,
+            "IN": "00:03:16:00",
+            "OUT": "00:03:18:00",
+            "PERSONAJE": "RYDER (CONT'D)",
+            "DIÁLOGO": "Paw Patrol...",
+            "SCENE": 1
+        },
+        {
+            "ID": 40,
+            "IN": "00:09:04:00",
+            "OUT": "00:09:06:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "...to the Lookout!",
+            "SCENE": 1
+        },
+        {
+            "ID": 41,
+            "IN": "00:03:18:00",
+            "OUT": "00:03:20:00",
+            "PERSONAJE": "ZUMA/SKYE/ROCKY/RUBBLE/MARSHALL",
+            "DIÁLOGO": "Ryder needs us!",
+            "SCENE": 1
+        },
+        {
+            "ID": 42,
+            "IN": "00:03:20:00",
+            "OUT": "00:03:22:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "But, what about Apollo Super Dog?",
+            "SCENE": 1
+        },
+        {
+            "ID": 43,
+            "IN": "00:03:22:00",
+            "OUT": "00:03:24:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Comon Apollo!",
+            "SCENE": 1
+        },
+        {
+            "ID": 44,
+            "IN": "00:03:24:00",
+            "OUT": "00:03:26:00",
+            "PERSONAJE": "TV ANNOUNCER (V.O.)",
+            "DIÁLOGO": "Will Apollo save the day - his own way?",
+            "SCENE": 1
+        },
+        {
+            "ID": 45,
+            "IN": "00:03:28:00",
+            "OUT": "00:03:32:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "I can't watch ... but I can't not watch!",
+            "SCENE": 1
+        },
+        {
+            "ID": 46,
+            "IN": "00:03:32:00",
+            "OUT": "00:03:34:00",
+            "PERSONAJE": "ROCKY",
+            "DIÁLOGO": "Come on, pups!",
+            "SCENE": 1
+        },
+        {
+            "ID": 47,
+            "IN": "00:03:34:00",
+            "OUT": "00:03:36:00",
+            "PERSONAJE": "RUBBLE/MARSHALL",
+            "DIÁLOGO": "We're... coming!",
+            "SCENE": 1
+        },
+        {
+            "ID": 48,
+            "IN": "00:02:30:00",
+            "OUT": "00:02:31:00",
+            "PERSONAJE": "MARSHALL/RUBBLE",
+            "DIÁLOGO": "Wow!",
+            "SCENE": 1
+        },
+        {
+            "ID": 49,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "KITTY",
+            "DIÁLOGO": "<THANKFUL MEOWWWW!>",
+            "SCENE": 1
+        },
+        {
+            "ID": 50,
+            "IN": "00:03:42:00",
+            "OUT": "00:03:44:00",
+            "PERSONAJE": "TV ANNOUNCER (V.O.)",
+            "DIÁLOGO": "Once again Apollo saves the day, his own SUPER way!",
+            "SCENE": 1
+        },
+        {
+            "ID": 51,
+            "IN": "00:03:47:00",
+            "OUT": "00:03:51:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Apollo's not even afraid of a SUPER-GIGANTIC spider!",
+            "SCENE": 1
+        },
+        {
+            "ID": 52,
+            "IN": "00:03:51:00",
+            "OUT": "00:03:53:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "I know, Apollo's so awesome! <GIGGLE> Comon Rubble, let's go.",
+            "SCENE": 1
+        },
+        {
+            "ID": 53,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL (CONT'D)",
+            "DIÁLOGO": "<GETS STUCK IN TOWEL CAPE>",
+            "SCENE": 1
+        },
+        {
+            "ID": 54,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Ooph.  <MUFFLED GIGGLE>  Made it!",
+            "SCENE": 1
+        },
+        {
+            "ID": 55,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "PUPS",
+            "DIÁLOGO": "<LAUGHS>",
+            "SCENE": 1
+        },
+        {
+            "ID": 56,
+            "IN": "00:04:18:00",
+            "OUT": "00:04:21:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "(sotto voce) Rubble, you forgot to take off your mask.",
+            "SCENE": 1
+        },
+        {
+            "ID": 57,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "No, I didn't. (a la Super Pup) I'm on a mission!  <HUMS THEME> Super Pup to the rescue!",
+            "SCENE": 1
+        },
+        {
+            "ID": 58,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "PUPS",
+            "DIÁLOGO": "<GIGGLE>",
+            "SCENE": 1
+        },
+        {
+            "ID": 59,
+            "IN": "00:04:28:00",
+            "OUT": "00:04:31:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Wait - where's Chase?",
+            "SCENE": 1
+        },
+        {
+            "ID": 60,
+            "IN": "00:04:31:00",
+            "OUT": "00:04:35:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Actually, he's the one who called the PAW Patrol.",
+            "SCENE": 1
+        },
+        {
+            "ID": 61,
+            "IN": "00:04:35:00",
+            "OUT": "00:04:37:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Oh, no!  Is he okay?",
+            "SCENE": 1
+        },
+        {
+            "ID": 62,
+            "IN": "00:04:37:00",
+            "OUT": "00:04:39:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "He's fine, but Jake needs our help.",
+            "SCENE": 1
+        },
+        {
+            "ID": 63,
+            "IN": "00:04:39:00",
+            "OUT": "00:04:44:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Well, uh, Paw Patrol - and Rubble Super pup - are ready for action - uh, Ryder... sir!",
+            "SCENE": 1
+        },
+        {
+            "ID": 64,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "PUPS/RYDER",
+            "DIÁLOGO": "<GIGGLE>",
+            "SCENE": 1
+        },
+        {
+            "ID": 65,
+            "IN": "00:04:46:00",
+            "OUT": "00:04:51:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "<GIGGLE> Jake and Chase were exploring the big cave.  Jake got his foot stuck and needs our help to get out.",
+            "SCENE": 1
+        },
+        {
+            "ID": 66,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "PUPS",
+            "DIÁLOGO": "<GASP>",
+            "SCENE": 1
+        },
+        {
+            "ID": 67,
+            "IN": "00:04:55:00",
+            "OUT": "00:05:00:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Rubble, I need you and your jack hammer to get Jake's foot loose from the rocks where he's stuck.",
+            "SCENE": 1
+        },
+        {
+            "ID": 68,
+            "IN": "00:05:00:00",
+            "OUT": "00:05:03:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Rubble on the Dubble!",
+            "SCENE": 1
+        },
+        {
+            "ID": 69,
+            "IN": "00:05:03:00",
+            "OUT": "00:05:09:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Marshall, I need you and your emergency response x-ray screen to look at Jake's ankle and see if it is injured.",
+            "SCENE": 1
+        },
+        {
+            "ID": 70,
+            "IN": "00:05:09:00",
+            "OUT": "00:05:12:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Ready for a Ruff-Ruff Rescue!",
+            "SCENE": 1
+        },
+        {
+            "ID": 71,
+            "IN": "00:00:28:00",
+            "OUT": "00:00:30:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Paw Patrol is on a roll!",
+            "SCENE": 1
+        },
+        {
+            "ID": 72,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "SKYE/ROCKY",
+            "DIÁLOGO": "<YIPS> <HOWLS>",
+            "SCENE": 1
+        },
+        {
+            "ID": 73,
+            "IN": "00:02:28:00",
+            "OUT": "00:02:30:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Woohoo!",
+            "SCENE": 1
+        },
+        {
+            "ID": 74,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "<LAUGHS>  Ruff!  Woohoo!",
+            "SCENE": 1
+        },
+        {
+            "ID": 75,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "<HOWLING>",
+            "SCENE": 1
+        },
+        {
+            "ID": 76,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "<Woof! Howl!>",
+            "SCENE": 1
+        },
+        {
+            "ID": 77,
+            "IN": "00:06:20:00",
+            "OUT": "00:06:24:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Okay,  Chase, let's get Jake out of that cave.",
+            "SCENE": 1
+        },
+        {
+            "ID": 78,
+            "IN": "00:06:24:00",
+            "OUT": "00:06:28:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Come on Pups - I need to see if Jake's foot is ok! <HOWL>",
+            "SCENE": 1
+        },
+        {
+            "ID": 79,
+            "IN": "00:06:28:00",
+            "OUT": "00:06:32:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Wait! Marshall, make sure you go right at the fork!  Marshall?",
+            "SCENE": 1
+        },
+        {
+            "ID": 80,
+            "IN": "00:06:36:00",
+            "OUT": "00:06:40:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Hey Chase - you didn't see any spiders in there, did you?",
+            "SCENE": 1
+        },
+        {
+            "ID": 81,
+            "IN": "00:06:40:00",
+            "OUT": "00:06:42:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Nah - not any big ones, anyway. Come on!  Chase is on the case.",
+            "SCENE": 1
+        },
+        {
+            "ID": 82,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "<WHIMPER>",
+            "SCENE": 1
+        },
+        {
+            "ID": 83,
+            "IN": "00:06:52:00",
+            "OUT": "00:06:54:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Jake?!  JAKE?!",
+            "SCENE": 1
+        },
+        {
+            "ID": 84,
+            "IN": "00:03:09:00",
+            "OUT": "00:03:10:00",
+            "PERSONAJE": "MARSHALL (CONT'D)",
+            "DIÁLOGO": "Don't worry Jake - I'm almost there!",
+            "SCENE": 1
+        },
+        {
+            "ID": 85,
+            "IN": "00:07:02:00",
+            "OUT": "00:07:06:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "<SNIFFFING> Jake is down this way...",
+            "SCENE": 1
+        },
+        {
+            "ID": 86,
+            "IN": "00:07:06:00",
+            "OUT": "00:07:08:00",
+            "PERSONAJE": "CHASE (CONT'D)",
+            "DIÁLOGO": "<SNIFFING> But Marshall went down THAT way!",
+            "SCENE": 1
+        },
+        {
+            "ID": 87,
+            "IN": "00:07:08:00",
+            "OUT": "00:07:10:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Ok.  Rubble - follow the right fork and find Jake.  See if you can get his foot free.",
+            "SCENE": 1
+        },
+        {
+            "ID": 88,
+            "IN": "00:07:12:00",
+            "OUT": "00:07:14:00",
+            "PERSONAJE": "RYDER (CONT'D)",
+            "DIÁLOGO": "Chase, you and I better get Marshall!",
+            "SCENE": 1
+        },
+        {
+            "ID": 89,
+            "IN": "00:07:20:00",
+            "OUT": "00:07:22:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Rubble! Down here!",
+            "SCENE": 1
+        },
+        {
+            "ID": 90,
+            "IN": "00:07:22:00",
+            "OUT": "00:07:24:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Hang on Jake - I'll get you free!",
+            "SCENE": 1
+        },
+        {
+            "ID": 91,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RUBBLE (CONT'D)",
+            "DIÁLOGO": "YIIIKES!! Oh ... hey ... a spider.  Hehe.  Nice spider.",
+            "SCENE": 1
+        },
+        {
+            "ID": 92,
+            "IN": "00:03:53:00",
+            "OUT": "00:03:55:00",
+            "PERSONAJE": "JAKE (O.S.)",
+            "DIÁLOGO": "Everything ok, Rubble?",
+            "SCENE": 1
+        },
+        {
+            "ID": 93,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "Yeah - just a big, scary spider... <WHIMPERING> (THEN: PUFFING UP) It might be a little scary to Rubble, but to SUPER Rubble it's just a sweet itsy bitsy spider. Excuse me, Spider!",
+            "SCENE": 1
+        },
+        {
+            "ID": 94,
+            "IN": "00:02:52:00",
+            "OUT": "00:02:54:00",
+            "PERSONAJE": "RUBBLE (CONT'D)",
+            "DIÁLOGO": "Woo-hoo! Yeah!",
+            "SCENE": 1
+        },
+        {
+            "ID": 95,
+            "IN": "00:07:56:00",
+            "OUT": "00:07:58:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Yeah, sweet move, Rubble!",
+            "SCENE": 1
+        },
+        {
+            "ID": 96,
+            "IN": "00:04:24:00",
+            "OUT": "00:04:28:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "You mean Super Rubble - to the rescue on the SUPER dubble!",
+            "SCENE": 1
+        },
+        {
+            "ID": 97,
+            "IN": "00:08:02:00",
+            "OUT": "00:08:06:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "All right Super Rubble! They high-five. Rubble attends to Jake.",
+            "SCENE": 1
+        },
+        {
+            "ID": 98,
+            "IN": "00:08:06:00",
+            "OUT": "00:08:08:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "<WOOF!>  Jack hammer!",
+            "SCENE": 1
+        },
+        {
+            "ID": 99,
+            "IN": "00:08:12:00",
+            "OUT": "00:08:16:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "You did it!  I'm unstuck!",
+            "SCENE": 1
+        },
+        {
+            "ID": 100,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "<BARK & HOWL OF EXCITEMENT!>",
+            "SCENE": 1
+        },
+        {
+            "ID": 101,
+            "IN": "00:08:20:00",
+            "OUT": "00:08:22:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Ouch.  That smarts.",
+            "SCENE": 1
+        },
+        {
+            "ID": 102,
+            "IN": "00:08:22:00",
+            "OUT": "00:08:24:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "We need Marshall.",
+            "SCENE": 1
+        },
+        {
+            "ID": 103,
+            "IN": "00:08:24:00",
+            "OUT": "00:08:26:00",
+            "PERSONAJE": "RUBBLE (CONT'D)",
+            "DIÁLOGO": "<HOWL!> Marshall! Come in!",
+            "SCENE": 1
+        },
+        {
+            "ID": 104,
+            "IN": "00:01:30:00",
+            "OUT": "00:01:33:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "YIKES! What's that?",
+            "SCENE": 1
+        },
+        {
+            "ID": 105,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL (CONT'D)",
+            "DIÁLOGO": "Oh. My pup tag, hehe. Hmmm.  Which way now? (CALLING) Jake!",
+            "SCENE": 1
+        },
+        {
+            "ID": 106,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL'S VOICE ECHO",
+            "DIÁLOGO": "Jake... ake... ake...",
+            "SCENE": 1
+        },
+        {
+            "ID": 107,
+            "IN": "00:08:40:00",
+            "OUT": "00:08:42:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "What if I took a wrong turn?  What if I'm lost in a cave with a...",
+            "SCENE": 1
+        },
+        {
+            "ID": 108,
+            "IN": "00:09:49:00",
+            "OUT": "00:09:51:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Marshall!",
+            "SCENE": 1
+        },
+        {
+            "ID": 109,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Waahhhhhh?",
+            "SCENE": 1
+        },
+        {
+            "ID": 110,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL (CONT'D)",
+            "DIÁLOGO": "Ryder!!! <SLURP-SLURP-SLURP>",
+            "SCENE": 1
+        },
+        {
+            "ID": 111,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "<GIGGLE>",
+            "SCENE": 1
+        },
+        {
+            "ID": 112,
+            "IN": "00:08:48:00",
+            "OUT": "00:08:52:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "You weren't scared, were you?",
+            "SCENE": 1
+        },
+        {
+            "ID": 113,
+            "IN": "00:08:52:00",
+            "OUT": "00:08:54:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Being all alone in a dark cave doesn't scare me... (with a smile to Chase) when you're here!",
+            "SCENE": 1
+        },
+        {
+            "ID": 114,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "<GIGGLE>",
+            "SCENE": 1
+        },
+        {
+            "ID": 115,
+            "IN": "00:06:42:00",
+            "OUT": "00:06:46:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Come on, pups. Jake needs us.",
+            "SCENE": 1
+        },
+        {
+            "ID": 116,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE/MARSHALL",
+            "DIÁLOGO": "<YIPS and HOWLS>",
+            "SCENE": 1
+        },
+        {
+            "ID": 117,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL OS",
+            "DIÁLOGO": "<HOWL!>",
+            "SCENE": 1
+        },
+        {
+            "ID": 118,
+            "IN": "00:03:02:00",
+            "OUT": "00:03:03:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "It's the Paw Patrol!",
+            "SCENE": 1
+        },
+        {
+            "ID": 119,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "To the rescu---whoaaa-aaaa-aaa! <IMPACT>",
+            "SCENE": 1
+        },
+        {
+            "ID": 120,
+            "IN": "00:09:10:00",
+            "OUT": "00:09:14:00",
+            "PERSONAJE": "MARSHALL (CONT'D)",
+            "DIÁLOGO": "Heh...I'm okay.",
+            "SCENE": 1
+        },
+        {
+            "ID": 121,
+            "IN": "00:09:14:00",
+            "OUT": "00:09:18:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Marshall, use your X-ray screen and get a look at Jake's foot.  Make sure he didn't break anything.",
+            "SCENE": 1
+        },
+        {
+            "ID": 122,
+            "IN": "00:09:20:00",
+            "OUT": "00:09:22:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "<BARK> X-Ray screen. <BARK BARK>",
+            "SCENE": 1
+        },
+        {
+            "ID": 123,
+            "IN": "00:09:28:00",
+            "OUT": "00:09:30:00",
+            "PERSONAJE": "MARSHALL (CONT'D)",
+            "DIÁLOGO": "I don't see any broken bones. <WOOF WOOF>",
+            "SCENE": 1
+        },
+        {
+            "ID": 124,
+            "IN": "00:09:32:00",
+            "OUT": "00:09:34:00",
+            "PERSONAJE": "MARSHALL (CONT'D)",
+            "DIÁLOGO": "I think you just sprained it, Jake.",
+            "SCENE": 1
+        },
+        {
+            "ID": 125,
+            "IN": "00:09:34:00",
+            "OUT": "00:09:36:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "That's lucky.",
+            "SCENE": 1
+        },
+        {
+            "ID": 126,
+            "IN": "00:09:36:00",
+            "OUT": "00:09:38:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Marshall can wrap your foot, Jake.",
+            "SCENE": 1
+        },
+        {
+            "ID": 127,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "",
+            "SCENE": 1
+        },
+        {
+            "ID": 128,
+            "IN": "00:07:32:00",
+            "OUT": "00:07:34:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Nice.",
+            "SCENE": 1
+        },
+        {
+            "ID": 129,
+            "IN": "00:09:43:00",
+            "OUT": "00:09:45:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Can you stand on it?",
+            "SCENE": 1
+        },
+        {
+            "ID": 130,
+            "IN": "00:02:18:00",
+            "OUT": "00:02:20:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "I don't know.",
+            "SCENE": 1
+        },
+        {
+            "ID": 131,
+            "IN": "00:09:47:00",
+            "OUT": "00:09:49:00",
+            "PERSONAJE": "JAKE (CONT'D)",
+            "DIÁLOGO": "Ow.  Definitely not.",
+            "SCENE": 1
+        },
+        {
+            "ID": 132,
+            "IN": "00:06:32:00",
+            "OUT": "00:06:34:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Marshall?",
+            "SCENE": 1
+        },
+        {
+            "ID": 133,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "<WOOF!> Crutch!",
+            "SCENE": 1
+        },
+        {
+            "ID": 134,
+            "IN": "00:02:31:00",
+            "OUT": "00:02:33:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "There you go!",
+            "SCENE": 1
+        },
+        {
+            "ID": 135,
+            "IN": "00:09:55:00",
+            "OUT": "00:09:57:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Thanks, Marshall.",
+            "SCENE": 1
+        },
+        {
+            "ID": 136,
+            "IN": "00:05:18:00",
+            "OUT": "00:05:21:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "No problem!",
+            "SCENE": 1
+        },
+        {
+            "ID": 137,
+            "IN": "00:09:59:00",
+            "OUT": "00:10:01:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Okay, pups, let's help Jake out of this cave.",
+            "SCENE": 1
+        },
+        {
+            "ID": 138,
+            "IN": "00:10:01:00",
+            "OUT": "00:10:03:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Follow me!  BARK, BARK!",
+            "SCENE": 1
+        },
+        {
+            "ID": 139,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RUBBLE/MARSHALL",
+            "DIÁLOGO": "<BARKING and HOWLING>",
+            "SCENE": 1
+        },
+        {
+            "ID": 140,
+            "IN": "00:04:00:00",
+            "OUT": "00:04:02:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "We did it!",
+            "SCENE": 1
+        },
+        {
+            "ID": 141,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE/RUBBLE",
+            "DIÁLOGO": "Aroooo! The pups BARK and HOWL in agreement.",
+            "SCENE": 1
+        },
+        {
+            "ID": 142,
+            "IN": "00:10:11:00",
+            "OUT": "00:10:15:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Thanks, Paw Patrol.  You totally saved the day - again.",
+            "SCENE": 1
+        },
+        {
+            "ID": 143,
+            "IN": "00:10:19:00",
+            "OUT": "00:10:21:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "Glad we could help. If you need anything while your ankle heals, just yelp for help!",
+            "SCENE": 1
+        },
+        {
+            "ID": 144,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "CHASE/RUBBLE/MARSHALL",
+            "DIÁLOGO": "<BARKING and HOWLING>",
+            "SCENE": 1
+        },
+        {
+            "ID": 145,
+            "IN": "00:10:23:00",
+            "OUT": "00:10:25:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Uh - I could use one thing.",
+            "SCENE": 1
+        },
+        {
+            "ID": 146,
+            "IN": "00:10:25:00",
+            "OUT": "00:10:27:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "What do you need?",
+            "SCENE": 1
+        },
+        {
+            "ID": 147,
+            "IN": "00:02:54:00",
+            "OUT": "00:02:56:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "A ride home!",
+            "SCENE": 1
+        },
+        {
+            "ID": 148,
+            "IN": "00:10:29:00",
+            "OUT": "00:10:31:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "No problem. Marshall's got that covered too!",
+            "SCENE": 1
+        },
+        {
+            "ID": 149,
+            "IN": "00:03:55:00",
+            "OUT": "00:03:56:00",
+            "PERSONAJE": "MARSHALL",
+            "DIÁLOGO": "Let's go, go, go!",
+            "SCENE": 1
+        },
+        {
+            "ID": 150,
+            "IN": "00:00:59:00",
+            "OUT": "00:01:02:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Awesome!",
+            "SCENE": 1
+        },
+        {
+            "ID": 151,
+            "IN": "00:10:39:00",
+            "OUT": "00:10:41:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "Ahh. Nice and toasty! And my foot feels great too!",
+            "SCENE": 1
+        },
+        {
+            "ID": 152,
+            "IN": "00:10:41:00",
+            "OUT": "00:10:43:00",
+            "PERSONAJE": "CHASE",
+            "DIÁLOGO": "Rubble was so brave!",
+            "SCENE": 1
+        },
+        {
+            "ID": 153,
+            "IN": "00:10:43:00",
+            "OUT": "00:10:47:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "I was? I mean, of course I was!",
+            "SCENE": 1
+        },
+        {
+            "ID": 154,
+            "IN": "00:07:58:00",
+            "OUT": "00:08:00:00",
+            "PERSONAJE": "JAKE",
+            "DIÁLOGO": "He sure was!  Nothing can stop Super Rubble!",
+            "SCENE": 1
+        },
+        {
+            "ID": 155,
+            "IN": "00:10:51:00",
+            "OUT": "00:10:53:00",
+            "PERSONAJE": "RUBBLE",
+            "DIÁLOGO": "It was nothing.",
+            "SCENE": 1
+        },
+        {
+            "ID": 156,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "RUBBLE (CONT'D)",
+            "DIÁLOGO": "Huh? Sp-sp-sp-spider!!!",
+            "SCENE": 1
+        },
+        {
+            "ID": 157,
+            "IN": "00:10:59:00",
+            "OUT": "00:11:01:00",
+            "PERSONAJE": "RUBBLE (CONT'D)",
+            "DIÁLOGO": "Uh, thanks Ryder... Ryder LAUGHS.",
+            "SCENE": 1
+        },
+        {
+            "ID": 158,
+            "IN": "00:08:00:00",
+            "OUT": "00:08:02:00",
+            "PERSONAJE": "RYDER",
+            "DIÁLOGO": "No problem Rubble. You're all a bunch of super pups.",
+            "SCENE": 1
+        },
+        {
+            "ID": 159,
+            "IN": "00:00:00:00",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "PUPS",
+            "DIÁLOGO": "<BARKS and HOWLS>",
+            "SCENE": 1
+        }
+    ]
+}
