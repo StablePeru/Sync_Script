@@ -38,7 +38,8 @@ class SyncPanel(QWidget):
         
         # Progress bar
         self.progress_bar = QProgressBar()
-        self.progress_bar.setTextVisible(False)
+        self.progress_bar.setTextVisible(True)  # Mostrar texto de porcentaje
+        self.progress_bar.setFormat("%p%")      # Formato de porcentaje
         
         # Log area
         self.log_area = QTextEdit()
@@ -49,25 +50,38 @@ class SyncPanel(QWidget):
         layout.addWidget(self.progress_bar)
         
         self.setLayout(layout)
-    
+
     def enable_start_button(self):
+        """
+        Habilita el botón de inicio de sincronización
+        """
         self.start_button.setEnabled(True)
         
     def disable_start_button(self):
+        """
+        Deshabilita el botón de inicio de sincronización
+        """
         self.start_button.setEnabled(False)
         
     def start_sync(self):
         """
         Inicia el proceso de sincronización en un hilo separado
         """
-        output_path = self.parent.get_output_path()
-        if not output_path:
-            output_path = "output.json"
-            self.parent.set_output_path(output_path)
+        # Obtener la ruta del guion y establecer nombres de archivos de salida
+        script_path = self.parent.get_script_path()
+        
+        # Extraer el nombre base del archivo del guion (sin extensión)
+        import os
+        script_basename = os.path.splitext(os.path.basename(script_path))[0]
+        
+        # Establecer rutas de salida basadas en el nombre del guion
+        output_json_path = f"{script_basename}.json"
+        self.parent.set_output_path(output_json_path)
             
         self.log_area.clear()
         self.parent.results_panel.results_widget.setRowCount(0)  # Limpiar resultados anteriores
-        self.progress_bar.setRange(0, 0)  # Indeterminate progress
+        self.progress_bar.setRange(0, 100)  # Cambiar a rango determinado (0-100%)
+        self.progress_bar.setValue(0)       # Iniciar en 0%
         self.start_button.setEnabled(False)
         self.save_button.setVisible(False)
         self.export_button.setVisible(False)
@@ -75,12 +89,22 @@ class SyncPanel(QWidget):
         # Create and start worker thread
         self.worker = SyncWorker(
             self.parent.get_audio_path(), 
-            self.parent.get_script_path()
+            script_path
         )
         self.worker.progress_update.connect(self.update_log)
+        self.worker.progress_percent.connect(self.update_progress)  # Conectar señal de progreso porcentual
         self.worker.finished_signal.connect(self.sync_finished)
         self.worker.error_signal.connect(self.sync_error)
         self.worker.start()
+    
+    # Añadir un nuevo método para actualizar el progreso
+    def update_progress(self, percent):
+        """
+        Actualiza la barra de progreso con el porcentaje recibido
+        """
+        self.progress_bar.setValue(percent)
+        self.progress_bar.setFormat(f"{percent}%")
+        self.progress_bar.setTextVisible(True)
         
     def update_log(self, message):
         """
@@ -96,8 +120,7 @@ class SyncPanel(QWidget):
         """
         Maneja la finalización exitosa del proceso de sincronización
         """
-        self.progress_bar.setRange(0, 100)
-        self.progress_bar.setValue(100)
+        self.progress_bar.setValue(100)  # Asegurar que la barra esté al 100%
         
         # Guardar los datos para uso posterior
         self.parent.set_sync_results(json_data)
@@ -105,8 +128,15 @@ class SyncPanel(QWidget):
         # Mostrar los resultados en la tabla
         self.parent.display_results(json_data)
         
+        # Guardar automáticamente los resultados en JSON
+        self.save_results(automatic=True)
+        
+        # Exportar automáticamente a Excel
+        self.export_to_excel(automatic=True)
+        
         self.update_log(f"\n¡Sincronización completada!")
-        self.update_log(f"Revise los resultados en la pestaña 'Resultados de Sincronización' y haga clic en 'Guardar Resultados' para guardar el archivo.")
+        self.update_log(f"Los resultados se han guardado automáticamente.")
+        self.update_log(f"Revise los resultados en la pestaña 'Resultados de Sincronización'.")
         
         # Cambiar a la pestaña de resultados
         self.parent.switch_to_results_tab()
@@ -130,30 +160,39 @@ class SyncPanel(QWidget):
         QMessageBox.critical(self, "Error", 
                             f"Ha ocurrido un error durante la sincronización:\n{error_message}")
     
-    def save_results(self):
+    def save_results(self, automatic=False):
         """
         Guarda los resultados de sincronización en un archivo JSON
+        
+        Args:
+            automatic (bool): Si es True, guarda automáticamente sin mostrar diálogos
         """
         try:
             output_path = self.parent.get_output_path()
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(self.parent.get_sync_results(), f, indent=4, ensure_ascii=False)
                 
-            self.update_log(f"Archivo guardado en: {output_path}")
+            self.update_log(f"Archivo JSON guardado en: {output_path}")
             
-            QMessageBox.information(self, "Guardado Completado", 
-                                   f"Los resultados se han guardado correctamente en:\n{output_path}")
-            
-            # Ocultar el botón de guardar después de guardar
-            self.save_button.setVisible(False)
+            if not automatic:
+                QMessageBox.information(self, "Guardado Completado", 
+                                      f"Los resultados se han guardado correctamente en:\n{output_path}")
+                
+                # Ocultar el botón de guardar después de guardar manualmente
+                self.save_button.setVisible(False)
             
         except Exception as e:
-            QMessageBox.critical(self, "Error al Guardar", 
-                                f"No se pudo guardar el archivo:\n{str(e)}")
+            error_msg = f"No se pudo guardar el archivo JSON: {str(e)}"
+            self.update_log(f"ERROR: {error_msg}")
+            if not automatic:
+                QMessageBox.critical(self, "Error al Guardar", error_msg)
     
-    def export_to_excel(self):
+    def export_to_excel(self, automatic=False):
         """
         Exporta los resultados a un archivo Excel (XLSX) con el mismo formato y colores
+        
+        Args:
+            automatic (bool): Si es True, exporta automáticamente sin mostrar diálogos
         """
         try:
             import pandas as pd
@@ -211,23 +250,34 @@ class SyncPanel(QWidget):
                 adjusted_width = (max_length + 2)
                 ws.column_dimensions[column_letter].width = adjusted_width
             
-            # Solicitar ubicación para guardar
-            file_path, _ = QFileDialog.getSaveFileName(
-                self, "Guardar como Excel", "", 
-                "Archivos Excel (*.xlsx)"
-            )
+            # Determinar la ruta del archivo Excel
+            if automatic:
+                # Usar la ruta del JSON pero cambiando la extensión
+                json_path = self.parent.get_output_path()
+                file_path = json_path.replace('.json', '.xlsx')
+            else:
+                # Solicitar ubicación para guardar
+                file_path, _ = QFileDialog.getSaveFileName(
+                    self, "Guardar como Excel", "", 
+                    "Archivos Excel (*.xlsx)"
+                )
             
             if file_path:
                 if not file_path.endswith('.xlsx'):
                     file_path += '.xlsx'
                 wb.save(file_path)
                 self.update_log(f"Archivo Excel guardado en: {file_path}")
-                QMessageBox.information(self, "Exportación Completada", 
-                                      f"Los resultados se han exportado correctamente a:\n{file_path}")
+                
+                if not automatic:
+                    QMessageBox.information(self, "Exportación Completada", 
+                                          f"Los resultados se han exportado correctamente a:\n{file_path}")
         except ImportError:
-            QMessageBox.warning(self, "Módulos Faltantes", 
-                              "Para exportar a Excel, necesita instalar pandas y openpyxl:\n"
-                              "pip install pandas openpyxl")
+            error_msg = "Para exportar a Excel, necesita instalar pandas y openpyxl:\npip install pandas openpyxl"
+            self.update_log(f"ERROR: {error_msg}")
+            if not automatic:
+                QMessageBox.warning(self, "Módulos Faltantes", error_msg)
         except Exception as e:
-            QMessageBox.critical(self, "Error al Exportar", 
-                               f"No se pudo exportar a Excel:\n{str(e)}")
+            error_msg = f"No se pudo exportar a Excel: {str(e)}"
+            self.update_log(f"ERROR: {error_msg}")
+            if not automatic:
+                QMessageBox.critical(self, "Error al Exportar", error_msg)

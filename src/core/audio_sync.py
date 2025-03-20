@@ -11,6 +11,7 @@ class SyncWorker(QThread):
     Worker thread para procesar la sincronización de audio y guion
     """
     progress_update = pyqtSignal(str)
+    progress_percent = pyqtSignal(int)  # Nueva señal para porcentaje de progreso
     finished_signal = pyqtSignal(dict)
     error_signal = pyqtSignal(str)
     
@@ -21,13 +22,19 @@ class SyncWorker(QThread):
         
     def run(self):
         try:
+            # Inicializar progreso
+            self.progress_percent.emit(0)
             self.progress_update.emit("Iniciando procesamiento...")
             device = "cuda" if torch.cuda.is_available() else "cpu"
             self.progress_update.emit(f"Usando dispositivo: {device}")
             
+            # Carga del modelo (10%)
+            self.progress_percent.emit(5)
             self.progress_update.emit("Cargando modelo Whisper...")
-            model = whisper.load_model("base").to(device)
+            model = whisper.load_model("large-v3-turbo").to(device)
+            self.progress_percent.emit(10)
             
+            # Transcripción (40%)
             self.progress_update.emit("Transcribiendo audio...")
             result = model.transcribe(
                 self.audio_path,
@@ -35,9 +42,12 @@ class SyncWorker(QThread):
                 language="en",
                 verbose=False
             )
+            self.progress_percent.emit(50)
             
+            # Lectura del guion (5%)
             self.progress_update.emit("Leyendo guion...")
             dialogues = read_script(self.script_path)
+            self.progress_percent.emit(55)
             
             json_data = {
                 "header": {
@@ -54,9 +64,14 @@ class SyncWorker(QThread):
             
             self.progress_update.emit("Sincronizando segmentos...")
             # Process each segment with its timestamp
+            total_segments = len(result["segments"])
             for i, segment in enumerate(result["segments"]):
+                # Calcular progreso (del 55% al 90%)
+                progress = 55 + int((i / total_segments) * 35)
+                self.progress_percent.emit(progress)
+                
                 if i % 5 == 0:  # Update progress every 5 segments
-                    self.progress_update.emit(f"Procesando segmento {i+1} de {len(result['segments'])}...")
+                    self.progress_update.emit(f"Procesando segmento {i+1} de {total_segments}...")
                 
                 text = segment["text"].strip()
                 start_time = segment["start"]
@@ -89,6 +104,8 @@ class SyncWorker(QThread):
                     json_data["data"].append(entry)
                     matched_dialogues.add(best_match_index)
             
+            # Finalización (90% a 100%)
+            self.progress_percent.emit(90)
             self.progress_update.emit("Añadiendo diálogos no coincidentes...")
             # Add unmatched dialogues with 00:00:00:00 timestamps
             for i in range(len(dialogues)):
@@ -106,10 +123,12 @@ class SyncWorker(QThread):
             # Sort the data by ID to maintain script order
             json_data["data"].sort(key=lambda x: x["ID"])
             
+            self.progress_percent.emit(95)
             self.progress_update.emit(f"\nProcesados {len(dialogues)} diálogos")
             self.progress_update.emit(f"Coincidentes: {len(matched_dialogues)}")
             self.progress_update.emit(f"No coincidentes: {len(dialogues) - len(matched_dialogues)}")
             
+            self.progress_percent.emit(100)
             self.finished_signal.emit(json_data)
             
         except Exception as e:
