@@ -22,3 +22,13 @@ Thumbs.db
 *.mp3
 *.m4a
 *.ogg
+
+# PyQt generated files
+*.ui.py
+*.qrc.py
+
+# Output files
+output*.json
+
+propuestas_mejora.md
+icon.ico
