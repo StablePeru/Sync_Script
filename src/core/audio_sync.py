@@ -58,6 +58,16 @@ class SyncWorker(QThread):
         """Load the Whisper model"""
         self.progress_percent.emit(5)
         self.progress_update.emit("Cargando modelo Whisper...")
+        
+        # Check if model exists in user's cache directory
+        import os
+        from pathlib import Path
+        
+        # Get the whisper cache directory
+        cache_dir = os.path.join(os.path.expanduser("~"), ".cache", "whisper")
+        Path(cache_dir).mkdir(parents=True, exist_ok=True)
+        
+        self.progress_update.emit(f"Buscando o descargando modelo en: {cache_dir}")
         model = whisper.load_model(self.WHISPER_MODEL).to(device)
         self.progress_percent.emit(10)
         return model
